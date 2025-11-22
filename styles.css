@@ -1,0 +1,30 @@
+body {
+    background-image:url("./img/stardew_background.webp");
+    background-size: cover;
+    font-family: fantasy, sans-serif;
+    font-size: 24px;
+}
+.home-card {
+    height: auto;
+    width: 400px;
+    margin: 16px auto;
+    padding: 16px 8px 8px;
+}
+.recipes-list{
+    background-color: rgba(135, 206, 235, 0.5);
+}
+
+.title,
+.recipes-list  {
+    margin: 8px auto;
+    padding: 8px 4px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+img {
+    padding: 0 8px;
+}
