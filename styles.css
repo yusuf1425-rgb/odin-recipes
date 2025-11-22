@@ -1,9 +1,16 @@
 body {
     background-image:url("./img/stardew_background.webp");
+    background-repeat: no-repeat;
     background-size: cover;
     font-family: fantasy, sans-serif;
     font-size: 24px;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .home-card {
     height: auto;
     width: 400px;
