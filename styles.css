@@ -2,7 +2,11 @@ body {
     background-image:url("./img/stardew_background.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: fantasy, sans-serif;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    font-family: fantasy, Verdana, sans-serif;
     font-size: 24px;
 }
 
@@ -14,9 +18,11 @@ html, body {
 .home-card {
     height: auto;
     width: 400px;
+    max-width: 90%;
     margin: 16px auto;
     padding: 16px 8px 8px;
 }
+
 .recipes-list{
     background-color: rgba(135, 206, 235, 0.5);
 }
@@ -27,11 +33,11 @@ html, body {
     padding: 8px 4px;
 }
 
-ul
-{
+ul {
     list-style-type: none;
 }
 
 img {
     padding: 0 8px;
+    max-width: 100%;
 }

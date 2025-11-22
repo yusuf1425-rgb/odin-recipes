@@ -2,20 +2,30 @@ body {
     background-image:url("../img/stardew_background.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: fantasy, sans-serif;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    font-family: Verdana, sans-serif;
     font-size: 24px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-.home-icon
-{
+
+.home-icon {
     text-align: center;
 }
 
 .recipe-card {
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -27,5 +37,5 @@ html, body {
 }
 
 .content.bottom {
-    margin-bottom: 40px;  
+    margin-bottom: 40px;
 }
